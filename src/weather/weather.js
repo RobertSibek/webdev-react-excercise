@@ -23,16 +23,15 @@ class Weather extends Component {
 						{ this.getCurrentTemperature() }˚
 					</div>
 					<div className="city">
-						Ubud
+						Singapore
 					</div>					
 				</div>								
 			</div>	
 			);
 	}
 	
-	// Currently static, but it would be nice to have from API or Google search->HTML Element
+	// Nice to have from API or Google search->HTML Element
     getCurrentTemperature = () => {
-		console.log(weatherUrl);
 //		var promise = new Promise((resolve, reject) => {
 //
 //        	fetch(weatherUrl, {'mode': 'no-cors'})
@@ -42,7 +41,7 @@ class Weather extends Component {
 //		});
 
 //		return promise;
-		return "26";
+		return "29";
  	}	
 	
 	render() {

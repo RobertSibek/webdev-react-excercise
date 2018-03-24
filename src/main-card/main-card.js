@@ -10,7 +10,7 @@ class MainCard extends Component {
 		this.state = {mainCards: [
 			{
 				_id: "abc1",
-				title: ["15080", "12000", "5100"],
+				title: ["17500", "15125", "5100"],
 				text: ["Show Views", "Likes", "Comments"],
 				color: "#40BCD8"				
 			},
